@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libadam.a CMakeFiles/adam.dir/adam.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libadam.a
