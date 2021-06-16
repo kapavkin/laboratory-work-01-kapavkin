@@ -40,30 +40,30 @@ TEST(date, addition)
 {
     date actual = 5650068;
 
-    ASSERT_EQ(actual + 17542488, 23192556);
+    ASSERT_EQ(actual + (date)17542488, (date)23192556);
 }
 
 TEST(date, subtraction)
 {
     date actual = 19166724;
 
-    ASSERT_EQ(actual - 11597083, 7569641);
+    ASSERT_EQ(actual - (date)11597083, (date)7569641);
 }
 
 TEST(date, increment)
 {
     date actual = 7380744;
 
-    ASSERT_EQ(actual++, 7380744);
-    ASSERT_EQ(++actual, 7380746);
+    ASSERT_EQ(actual++, (date)7380744);
+    ASSERT_EQ(++actual, (date)7380746);
 }
 
 TEST(date, decrement)
 {
     date actual = 9807190;
 
-    ASSERT_EQ(actual--, 9807190);
-    ASSERT_EQ(--actual, 9807188);
+    ASSERT_EQ(actual--, (date)9807190);
+    ASSERT_EQ(--actual, (date)9807188);
 }
 }
 
@@ -213,30 +213,30 @@ TEST(adam, addition)
 {
     adam actual = 1695;
 
-    ASSERT_EQ(actual + 2722, 4417);
+    ASSERT_EQ(actual + (adam)2722, (adam)4417);
 }
 
 TEST(adam, subtraction)
 {
     adam actual = 7282;
 
-    ASSERT_EQ(actual - 4040, 3242);
+    ASSERT_EQ(actual - (adam)4040, (adam)3242);
 }
 
 TEST(adam, increment)
 {
     adam actual = 5094;
 
-    ASSERT_EQ(actual++, 5094);
-    ASSERT_EQ(++actual, 5096);
+    ASSERT_EQ(actual++, (adam)5094);
+    ASSERT_EQ(++actual, (adam)5096);
 }
 
 TEST(adam, decrement)
 {
     adam actual = 6565;
 
-    ASSERT_EQ(actual--, 6565);
-    ASSERT_EQ(--actual, 6563);
+    ASSERT_EQ(actual--, (adam)6565);
+    ASSERT_EQ(--actual, (adam)6563);
 }
 }
 
